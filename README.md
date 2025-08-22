@@ -25,7 +25,7 @@ The workflow covers **EDA → Feature Engineering → Model Development → Trad
 ├── notebooks/
 │   ├── eda.ipynb        # Exploratory Data Analysis
 │   ├── feature.ipynb    # Feature engineering (price + 
-│   ├── training.ipynb   # Model development, 
+│   ├── model.ipynb   # Model development, 
 │
 ├── report/
 │   ├── project_report.pdf   # Full academic-style
