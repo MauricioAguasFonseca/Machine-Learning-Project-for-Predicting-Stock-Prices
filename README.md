@@ -1,2 +1,36 @@
-# Machine-Learning-Project-for-Predicting-Stock-Prices
-This project focuses on predicting stock prices by combining historical market data with financial news sentiment analysis. The goal is to build and evaluate models that can forecast price movements and demonstrate the impact of market news on trading behavior.
+# 📈 Stock Return Prediction with News Sentiment
+
+This project explores whether incorporating **news sentiment** can improve the prediction of next-day stock returns for major technology companies in the NASDAQ.  
+
+We combine:
+- Historical price data (OHLCV).
+- Market news headlines (sentiment analysis with VADER).
+- Feature engineering from both structured (prices, volumes, technical indicators) and unstructured data (text).
+
+The workflow covers **EDA → Feature Engineering → Model Development → Trading Strategy Backtest → Reporting**.
+
+---
+
+## 🗂 Project Structure
+
+```text
+.
+├── data/                # (Not in repo) Raw price & news data (CSV/Parquet)
+├── graphs/              # All figures generated during analysis
+│   ├── n_records.png
+│   ├── correlations.png
+│   ├── distributions.png
+│   ├── ...
+│
+├── notebooks/
+│   ├── eda.ipynb        # Exploratory Data Analysis
+│   ├── feature.ipynb    # Feature engineering (price + 
+│   ├── training.ipynb   # Model development, 
+│
+├── report/
+│   ├── project_report.pdf   # Full academic-style
+│   ├── slides.pdf           # 5-slide presentation
+│
+├── .gitignore
+├── LICENSE
+└── README.md
