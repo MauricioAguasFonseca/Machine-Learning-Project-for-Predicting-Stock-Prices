@@ -15,7 +15,7 @@ The workflow covers **EDA → Feature Engineering → Model Development → Trad
 
 ```text
 .
-├── data/                # (Not in repo) Raw price & news data (CSV/Parquet)
+├── data/                #  Raw price & news data 
 ├── graphs/              # All figures generated during analysis
 │   ├── n_records.png
 │   ├── correlations.png
