@@ -15,7 +15,7 @@ The workflow covers **EDA → Feature Engineering → Model Development → Trad
 
 ```text
 .
-├── data/                # (Not in repo) Raw price & news data (CSV/Parquet)
+├── data/                #  Raw price & news data 
 ├── graphs/              # All figures generated during analysis
 │   ├── n_records.png
 │   ├── correlations.png
@@ -25,7 +25,7 @@ The workflow covers **EDA → Feature Engineering → Model Development → Trad
 ├── notebooks/
 │   ├── eda.ipynb        # Exploratory Data Analysis
 │   ├── feature.ipynb    # Feature engineering (price + 
-│   ├── training.ipynb   # Model development, 
+│   ├── model.ipynb   # Model development, 
 │
 ├── report/
 │   ├── project_report.pdf   # Full academic-style
